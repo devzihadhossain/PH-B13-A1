@@ -199,3 +199,38 @@ header .btn:hover{
 }
 
 
+/* Brain Section */
+.brain-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 120px 0;
+}
+.brain-img img{
+    width: 100%;
+    width: 600px;
+    height: 600px;
+}
+.brain-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.brain-content h6{
+    color: #30B868;
+    font-size: 16px;
+}
+.brain-content h2{
+    font-size: 48px;
+    color: #001931;
+}
+.brain-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}
+.brain-content ul li{
+    display: flex;
+    align-items: center;
+}
