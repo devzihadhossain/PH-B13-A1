@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knowledge Vault</title>
+
+    <link rel="shortcut icon" href="./assets/logo-navbar.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
 
     <!-- Font Awesome cdn -->
@@ -11,14 +13,15 @@
 </head>
 <body>
 
-    <header class="container">
+    <!-- Navbar Section -->
+    <header class="container flex justify-between items-center">
         <div class="logo">
             <a href="">
                 <img src="./assets/logo-navbar.png" alt="">
             </a>
         </div>
         <nav>
-            <ul>
+            <ul class="flex">
                 <li>
                     <a href="">Features</a>
                 </li>
@@ -33,53 +36,55 @@
         <button class="btn">Get Early Access</button>
     </header>
 
-    <section class="hero-area">
-        <div class="hero-content">
-            <span class="hero-label">
-                <div class="dot">
-                    <i class="fa-solid fa-circle"></i>
+    <!-- Banner Section -->
+    <section class="hero-area flex justify-center items-center">
+        <div class="hero-content flex justify-center items-center">
+            <span class="hero-label flex items-center">
+                <div class="dot flex justify-center items-center">
+                    <img src="./assets/dot.png" alt="">
                 </div>
                 <span>Early Access Now Open</span>
             </span>
             <h1>Structured thinking, <span>not just note-taking.</span></h1>
             <p>A private space to store notes, links, and learning summaries — designed to help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
-            <div class="btn-group">
+            <div class="btn-group flex">
                 <a class="btn" href="">Start Building Your Vault <i class="fa-solid fa-arrow-right-long"></i></a>
                 <a class="btn-transparent" href=""><i class="fa-solid fa-play"></i> See How It Works</a>
             </div>
         </div>
     </section>
 
+    <!-- Notes Section -->
     <section class="notes-area">
-        <div class="container notes-wrapper">
+        <div class="container notes-wrapper flex">
             <div class="notes-header">
                 <h2>Notes don't fail, Structure does.</h2>
                 <p>You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
             </div>
-            <div class="notes-card-area">
-                <div class="notes-card">
-                    <div class="card-img">
+            <div class="notes-card-area flex">
+                <div class="notes-card flex justify-center items-center">
+                    <div class="card-img flex justify-center items-center">
                         <img src="./assets/Vector.png" alt="">
                     </div>
                     <h3>Scattered notes</h3>
                     <p>Your ideas live in 10 different apps, none of them connected.</p>
                 </div>
-                <div class="notes-card">
-                    <div class="card-img">
+                <div class="notes-card flex justify-center items-center">
+                    <div class="card-img flex justify-center items-center">
                         <img src="./assets/Bookmarks.png" alt="">
                     </div>
                     <h3>Bookmark overload</h3>
                     <p>Hundreds of saved links you'll never revisit or remember.</p>
                 </div>
-                <div class="notes-card">
-                    <div class="card-img">
+                <div class="notes-card flex justify-center items-center">
+                    <div class="card-img flex justify-center items-center">
                         <img src="./assets/Brain.png" alt="">
                     </div>
                     <h3>No idea connections</h3>
                     <p>Insights stay isolated, never building into bigger understanding.</p>
                 </div>
-                <div class="notes-card">
-                    <div class="card-img">
+                <div class="notes-card flex justify-center items-center">
+                    <div class="card-img flex justify-center items-center">
                         <img src="./assets/Info.png" alt="">
                     </div>
                     <h3>Forgetting what you learned</h3>
@@ -89,16 +94,17 @@
         </div>
     </section>
 
+    <!-- Second Brain Section -->
     <section class="container">
-        <div class="brain-section">
+        <div class="brain-section flex items-center">
             <div class="brain-img">
                 <img src="./assets/knowledge.png" alt="">
             </div>
-            <div class="brain-content">
+            <div class="brain-content flex">
                 <h6>The Solution</h6>
                 <h2>Your second brain, structured by design.</h2>
                 <p>Personal Knowledge Vault isn't another note-taking app. It's a thinking environment where every note, link, and summary becomes part of an interconnected web of understanding.</p>
-                <ul>
+                <ul class="flex">
                     <li> 
                         <img src="./assets/CheckCircle.png" alt="">
                         <span>Capture ideas with structure built-in from day one</span>
@@ -120,8 +126,9 @@
         </div>
     </section>
 
-    <section class="container early-access-section">
-        <div class="early-access">
+    <!-- Early Access Section -->
+    <section class="container early-access-section flex justify-center items-center">
+        <div class="early-access flex">
             <h2>Ready to think more clearly?</h2>
             <p>Join thousands of learners who are building their personal knowledge vaults. Start free, no credit card required.</p>
             <a class="early-btn" href="">
@@ -132,16 +139,16 @@
         </div>
     </section>
     
-
+    <!-- Footer Section -->
     <div class="footer-section">
         <footer class="container">
-            <div class="footer-top">
+            <div class="footer-top flex justify-between items-center">
                 <div class="logo">
                     <a href="">
                         <img src="./assets/logo-footer.png" alt="">
                     </a>
                 </div>
-                <div class="footer-icon">
+                <div class="footer-icon flex">
                     <p>Social Links</p>
                     <div class="f-icon-group">
                         <a href="">
